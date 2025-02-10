@@ -225,7 +225,7 @@ For more details, see the [ModusToolbox&trade; tools package user guide](https:/
 
 11. All the data is stored in the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic/data*. Each sample is stored in a folder with a date and time stamp, the folder includes the captured data as a .data file.
 
-12. The code example supports collecting PDM/PCM data. To configure the application to collect PDM/PCM data open *source/config.h* and set `INFERENCE_MODE_SELECT = PDM_COLLECTION`.
+12. The code example supports collecting PDM/PCM data. To configure the application to collect PDM/PCM data open *source/config.h* and set `COLLECTION_MODE_SELECT = PDM_COLLECTION`.
 
 13. Program the device as outlined in Step 4.
 
@@ -247,7 +247,7 @@ For more details, see the [ModusToolbox&trade; tools package user guide](https:/
 
 21. All the data is stored in the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic/data*. Each sample is stored in a folder with a date and time stamp, the folder includes the captured data as a .wav file.
 
-22. The code example supports collecting Magnetometer data. To configure the application to collect Magnetometer data open source/config.h and set `INFERENCE_MODE_SELECT = BMM_COLLECTION`.
+22. The code example supports collecting Magnetometer data. To configure the application to collect Magnetometer data open source/config.h and set `COLLECTION_MODE_SELECT = BMM_COLLECTION`.
 > **Note:** Magnetometer data collection is supported only on CY8CKIT-062S2-AI Kit.
 23. Open a command prompt and change to the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic*.
 
@@ -271,7 +271,7 @@ For more details, see the [ModusToolbox&trade; tools package user guide](https:/
 
 30. All the data is stored in the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic/data*. Each sample is stored in a folder with a date and time stamp, the folder includes the captured data as a .data file.
 
-31. The code example supports collecting Pressure and temprature data. To configure the application to collect Pressure and temprature data open source/config.h and set `INFERENCE_MODE_SELECT = DPS_COLLECTION`.
+31. The code example supports collecting Pressure and temprature data. To configure the application to collect Pressure and temprature data open source/config.h and set `COLLECTION_MODE_SELECT = DPS_COLLECTION`.
 
 32. Open a command prompt and change to the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic*.
 
@@ -289,7 +289,7 @@ For more details, see the [ModusToolbox&trade; tools package user guide](https:/
 
 38. All the data is stored in the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic/data*. Each sample is stored in a folder with a date and time stamp, the folder includes the captured data as a .data file.
 
-39. The code example supports collecting Radar data. To configure the application to collect Radar data open source/config.h and set `INFERENCE_MODE_SELECT = RADAR_COLLECTION`.
+39. The code example supports collecting Radar data. To configure the application to collect Radar data open source/config.h and set `COLLECTION_MODE_SELECT = RADAR_COLLECTION`.
 > **Note:** radar data collection is supported only on CY8CKIT-062S2-AI Kit
 40. Open a command prompt and change to the following directory *{Imagimob Capture Server cloned repo}/captureserver/examples/generic*.
 
